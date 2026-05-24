@@ -1,0 +1,10 @@
+^K:\CICSSS\BUILD\CMAKEFILES\221EF36BBED9F3A94376C65FE56CE0F9\GENERATE.STAMP.RULE
+setlocal
+H:\VS2022Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SK:/Cicsss -BK:/Cicsss/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file K:/Cicsss/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,39 @@
+﻿  addstud.cpp
+  shouAllStudents.cpp
+  showmenu.cpp
+  学生查找系统(2026年1月18日).cpp
+  正在生成代码...
+shouAllStudents.obj : error LNK2005: main 已经在 addstud.obj 中定义
+shouAllStudents.obj : error LNK2005: "int choice" (?choice@@3HA) 已经在 addstud.obj 中定义
+shouAllStudents.obj : error LNK2005: "int studentCount" (?studentCount@@3HA) 已经在 addstud.obj 中定义
+shouAllStudents.obj : error LNK2005: "struct Student * students" (?students@@3PAUStudent@@A) 已经在 addstud.obj 中定义
+showmenu.obj : error LNK2005: main 已经在 addstud.obj 中定义
+showmenu.obj : error LNK2005: "int choice" (?choice@@3HA) 已经在 addstud.obj 中定义
+showmenu.obj : error LNK2005: "int studentCount" (?studentCount@@3HA) 已经在 addstud.obj 中定义
+showmenu.obj : error LNK2005: "struct Student * students" (?students@@3PAUStudent@@A) 已经在 addstud.obj 中定义
+学生查找系统(2026年1月18日).obj : error LNK2005: main 已经在 addstud.obj 中定义
+学生查找系统(2026年1月18日).obj : error LNK2005: "int choice" (?choice@@3HA) 已经在 addstud.obj 中定义
+学生查找系统(2026年1月18日).obj : error LNK2005: "int studentCount" (?studentCount@@3HA) 已经在 addstud.obj 中定义
+学生查找系统(2026年1月18日).obj : error LNK2005: "struct Student * students" (?students@@3PAUStudent@@A) 已经在 addstud.obj 中定义
+addstud.obj : error LNK2019: 无法解析的外部符号 "void __cdecl showmenu(void)" (?showmenu@@YAXXZ)，函数 main 中引用了该符号
+shouAllStudents.obj : error LNK2001: 无法解析的外部符号 "void __cdecl showmenu(void)" (?showmenu@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl showmenu(void)" (?showmenu@@YAXXZ)
+addstud.obj : error LNK2019: 无法解析的外部符号 "void __cdecl shouAllStudents(void)" (?shouAllStudents@@YAXXZ)，函数 main 中引用了该符号
+showmenu.obj : error LNK2001: 无法解析的外部符号 "void __cdecl shouAllStudents(void)" (?shouAllStudents@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl shouAllStudents(void)" (?shouAllStudents@@YAXXZ)
+addstud.obj : error LNK2019: 无法解析的外部符号 "void __cdecl findStud(void)" (?findStud@@YAXXZ)，函数 main 中引用了该符号
+shouAllStudents.obj : error LNK2001: 无法解析的外部符号 "void __cdecl findStud(void)" (?findStud@@YAXXZ)
+showmenu.obj : error LNK2001: 无法解析的外部符号 "void __cdecl findStud(void)" (?findStud@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl findStud(void)" (?findStud@@YAXXZ)
+addstud.obj : error LNK2019: 无法解析的外部符号 "void __cdecl editStud(void)" (?editStud@@YAXXZ)，函数 main 中引用了该符号
+shouAllStudents.obj : error LNK2001: 无法解析的外部符号 "void __cdecl editStud(void)" (?editStud@@YAXXZ)
+showmenu.obj : error LNK2001: 无法解析的外部符号 "void __cdecl editStud(void)" (?editStud@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl editStud(void)" (?editStud@@YAXXZ)
+addstud.obj : error LNK2019: 无法解析的外部符号 "void __cdecl delStud(void)" (?delStud@@YAXXZ)，函数 main 中引用了该符号
+shouAllStudents.obj : error LNK2001: 无法解析的外部符号 "void __cdecl delStud(void)" (?delStud@@YAXXZ)
+showmenu.obj : error LNK2001: 无法解析的外部符号 "void __cdecl delStud(void)" (?delStud@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl delStud(void)" (?delStud@@YAXXZ)
+shouAllStudents.obj : error LNK2019: 无法解析的外部符号 "void __cdecl addstud(void)" (?addstud@@YAXXZ)，函数 main 中引用了该符号
+showmenu.obj : error LNK2001: 无法解析的外部符号 "void __cdecl addstud(void)" (?addstud@@YAXXZ)
+学生查找系统(2026年1月18日).obj : error LNK2001: 无法解析的外部符号 "void __cdecl addstud(void)" (?addstud@@YAXXZ)
+K:\Cicsss\lesson\项目\学生查找系统(2026年1月18日)\x64\Debug\学生查找系统(2026年1月18日).exe : fatal error LNK1120: 6 个无法解析的外部命令

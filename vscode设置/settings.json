@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "SynthWave '84",
+    "python.defaultInterpreterPath": "c:\\Program Files\\Python312\\python.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.codeLensFontFamily": "Consolas,'JetBrains Mono', monospace",
+    "editor.inlayHints.fontFamily": "Consolas,'JetBrains Mono', monospace",
+    "workbench.settings.useSplitJSON": true,
+    "editor.mouseWheelZoom": true,
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "C_Cpp.default.compilerPath": "c:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx86\\x64\\cl.exe",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "files.autoSave": "onWindowChange",
+    "editor.largeFileOptimizations": false,
+    "terminal.external.windowsExec": "pwsh.exe C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat",
+    "git.enableSmartCommit": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "git.openRepositoryInParentFolders": "always",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    }
+}

@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    int num1, num2;
+    char op;
+    
+    cout << "=========================================================" << endl ;
+    cout << "计算器" << endl ;
+    cout << "=========================================================" << endl ;
+    
+
+    // 读取输入
+    cout << "请输入要计算的算式" << endl;
+    cout << "格式要求 : 数字 <空格> 运算符 <空格> 数字 , 每个数字中间必须包含空格" << endl ;
+    cout << "请输入: " ;
+    cin >> num1 >> num2 >> op;
+    
+    // 使用switch语句处理不同的运算符
+    switch (op) {
+        case '+':
+            cout << num1 + num2 << endl;
+            break;
+        case '-':
+            cout << num1 - num2 << endl;
+            break;
+        case '*':
+            cout << num1 * num2 << endl;
+            break;
+        case '/':
+            // 检查除数是否为0
+            if (num2 == 0) {
+                cerr << "Divided by zero!" << endl;
+            } else {
+                cout << num1 / num2 << endl;
+            }
+            break;
+        default:
+            // 处理无效的操作符
+            cerr << "Invalid operator!" << endl;
+            break;
+    }
+    
+    return 0;
+}

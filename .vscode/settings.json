@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Woodfish Dark",
+    "editor.fontFamily": "'JetBrains Mono NL Regular' , 微软雅黑",
+    "files.autoSave": "onWindowChange",
+    "git.enableSmartCommit": true,
+    "vscode_custom_css.imports": [
+        "file:///c%3A/Users/Administrator/.vscode/extensions/30d98f9b2.neovide-cursor-1.0.1/neovide-cursor.js"
+    ],
+    "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#FFC0CB"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontLigatures": true,
+    "files.encoding": "gb2312",
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp"
+    }
+}
