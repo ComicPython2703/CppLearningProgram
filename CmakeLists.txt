@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.10)
 project(Cicsss)
 
-# 添加可执行文件（假设你的源代码是 main.cpp）
 add_executable(Cicsss main.cpp)
