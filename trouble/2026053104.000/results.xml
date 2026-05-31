@@ -1,0 +1,8 @@
+<DiagnosticResults>
+    <ID>NetworkDiagnosticsNetworkAdapter</ID>
+    <Name>网络适配器</Name>
+    <Publisher>Microsoft Corporation</Publisher>
+    <Icon>@%windir%\diagnostics\system\Networking\DiagPackage.dll,-20003</Icon>
+    <Category>网络</Category>
+    <Keyword>Network</Keyword>
+</DiagnosticResults>

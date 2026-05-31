@@ -24,7 +24,39 @@ int main()
     // ----------|插入头节点|------------
 
     cout << "插入头节点" << endl;
+
     ListNude* newNode = new ListNude(0,NULL); // 新建节点,地址要用指针存储
     newNode -> next = head; // 下一个指向头节点
     head = newNode; //更新头节点
+
+    printa(p_print);
+
+    cout << "结束" << endl;
+
+    // ----------|插入尾部节点|------------
+
+    cout << "插入尾部节点" << endl;
+
+    ListNude* p = head;
+    while (p -> next != nullptr || p -> next != NULL)  // 避免空指针
+    {
+        p = p->next; // 遍历
+    }
+    p->next = new ListNude(6,NULL);
+
+    printa(p_print);
+
+    cout << "结束" << endl;
+
+    // ----------|删除节点|------------
+    cout << "删除节点" << endl;
+
+    ListNude* p1 = head;
+    for (int i = 0; i < 2; i++)
+    {
+        p1 -> next;
+    }
+    p1->next = p1->next->next;
+    
+    cout << "结束" << endl;
 }
