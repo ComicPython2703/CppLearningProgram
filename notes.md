@@ -6,7 +6,7 @@
 
 - `//` 单行注释
 - `/* */` 多行注释
-- `#include` 导入库
+- `#include` 导入库或文件
 - `cout` 输出流，`<<` 输出操作符
 - `endl` 换行（可选）
 - `int` 定义整数
@@ -354,8 +354,102 @@ void outlen(int a , int b) {
 int output = outlen(2,3);
 // 此处 outlen 的 返回值为 6
 ```
+---
+
+## 结构体
+
+结构体（`struct`）用于将多个不同类型的变量组合成一个新的数据类型。
+
+**语法：**
+
+```cpp
+struct 结构体名称 {
+    数据类型 成员1;
+    数据类型 成员2;
+    // ...
+};
+```
+
+**示例：**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// 定义一个结构体
+struct Student {
+    string name;
+    int age;
+    float score;
+};
+
+int main() {
+    // 创建结构体变量并初始化
+    Student stu1 = {"张三", 18, 95.5};
+
+    // 访问成员（使用点运算符 .）
+    cout << "姓名: " << stu1.name << endl;
+    cout << "年龄: " << stu1.age << endl;
+    cout << "成绩: " << stu1.score << endl;
+
+    return 0;
+}
+```
+
+- 结构体中的成员可以是任意类型（基本类型、数组、指针、甚至其他结构体）。
+- 通过 `.` 访问成员，若使用指针则用 `->`。
 
 ---
+
+## 数据结构
+
+数据结构是计算机中组织和存储数据的方式。C++ 中常用的数据结构有：
+
+### 1. 数组（Array）
+已在前面介绍，固定大小，连续存储。
+
+### 2. 向量（vector）
+动态数组，大小可自动调整。详见笔记后面的 `vector` 部分。
+
+### 3. 栈（stack）
+后进先出（LIFO）容器。需要包含 `<stack>`。
+
+```cpp
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    stack<int> s;
+    s.push(10);      // 压栈
+    s.push(20);
+    cout << s.top() << endl;  // 访问栈顶：20
+    s.pop();                  // 出栈
+    cout << s.top() << endl;  // 10
+    return 0;
+}
+```
+
+### 4. 队列（queue）
+先进先出（FIFO）容器。需要包含 `<queue>`。
+
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main() {
+    queue<int> q;
+    q.push(1);
+    q.push(2);
+    cout << q.front() << endl; // 队头：1
+    q.pop();
+    cout << q.front() << endl; // 队头：2
+    return 0;
+}
+```
+
+> 更多数据结构（如链表、映射、集合）可参考 C++ 标准模板库（STL）文档。
 
 ## C++ 关键字
 

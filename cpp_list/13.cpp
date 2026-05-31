@@ -3,73 +3,73 @@
 using namespace std;
 
 
-// å­¦ç”Ÿç»“æ„ä½“
+// Ñ§Éú½á¹¹Ìå
 struct Student {
-    int id;          // å­¦å·
-    string name;     // å§“å
-    string gender;   // æ€§åˆ«
-    string className; // ç­çº§
-    string specialty; // ç‰¹é•¿
+    int id;          // Ñ§ºÅ
+    string name;     // ĞÕÃû
+    string gender;   // ĞÔ±ğ
+    string className; // °à¼¶
+    string specialty; // ÌØ³¤
 };
 
 
-// ä¸»å‡½æ•° - ç¨‹åºå…¥å£
+// Ö÷º¯Êı - ³ÌĞòÈë¿Ú
 int main() {
 
-    //// ç»“æ„ä½“çš„ä½¿ç”¨ (å•ä¸ª)
-    //// åˆ›å»ºç»“æ„ä½“
+    //// ½á¹¹ÌåµÄÊ¹ÓÃ (µ¥¸ö)
+    //// ´´½¨½á¹¹Ìå
     //Student newStudent;
     //newStudent.id = 1;
-    //newStudent.name = "å¼ ä¸‰";          // å§“å
-    //newStudent.gender = "ç”·";          // æ€§åˆ«
-    //newStudent.className = "1å¹´1ç­";   // ç­çº§
-    //newStudent.specialty = "å¥¥ç‰¹é£è¸¢"; // ç‰¹é•¿
-    //// è¾“å‡º
-    //cout << "å­¦å·: " << newStudent.id << endl;
-    //cout << "å§“å: " << newStudent.name << endl;
-    //cout << "æ€§åˆ«: " << newStudent.gender << endl;
-    //cout << "ç­çº§: " << newStudent.className << endl;
-    //cout << "ç‰¹é•¿: " << newStudent.specialty << endl;
+    //newStudent.name = "ÕÅÈı";          // ĞÕÃû
+    //newStudent.gender = "ÄĞ";          // ĞÔ±ğ
+    //newStudent.className = "1Äê1°à";   // °à¼¶
+    //newStudent.specialty = "°ÂÌØ·ÉÌß"; // ÌØ³¤
+    //// Êä³ö
+    //cout << "Ñ§ºÅ: " << newStudent.id << endl;
+    //cout << "ĞÕÃû: " << newStudent.name << endl;
+    //cout << "ĞÔ±ğ: " << newStudent.gender << endl;
+    //cout << "°à¼¶: " << newStudent.className << endl;
+    //cout << "ÌØ³¤: " << newStudent.specialty << endl;
 
-    ////// å­—ç¬¦ä¸²æ‹¼æ¥ 
-    ////// \t è¡¨ç¤ºä¸€ä¸ªåˆ¶è¡¨ç¬¦ï¼ˆTabï¼‰ç›¸å½“äºæŒ‰ä¸‹é”®ç›˜ä¸Šçš„ Tab
-    ////// \n æ¢è¡Œ 
-    ////cout << newStudent.name + "\tä½¿ç”¨äº†\n" + newStudent.specialty << endl;
+    ////// ×Ö·û´®Æ´½Ó 
+    ////// \t ±íÊ¾Ò»¸öÖÆ±í·û£¨Tab£©Ïàµ±ÓÚ°´ÏÂ¼üÅÌÉÏµÄ Tab
+    ////// \n »»ĞĞ 
+    ////cout << newStudent.name + "\tÊ¹ÓÃÁË\n" + newStudent.specialty << endl;
 
 
-    //// åˆ›å»ºå¤šä¸ªç»“æ„ä½“
-    //cout << "=== æ–¹æ³•2: ä½¿ç”¨ç»“æ„ä½“æ•°ç»„ ===" << endl;
-    //// åˆ›å»ºå­¦ç”Ÿæ•°ç»„ï¼ˆæœ€å¤š4ä¸ªï¼‰
+    //// ´´½¨¶à¸ö½á¹¹Ìå
+    //cout << "=== ·½·¨2: Ê¹ÓÃ½á¹¹ÌåÊı×é ===" << endl;
+    //// ´´½¨Ñ§ÉúÊı×é£¨×î¶à4¸ö£©
     //const int MAX = 4;
     //Student students[MAX];
-    //int count = 0;  // å½“å‰å­¦ç”Ÿæ•°é‡
-    //// æ·»åŠ å­¦ç”Ÿ1åˆ°æ•°ç»„
+    //int count = 0;  // µ±Ç°Ñ§ÉúÊıÁ¿
+    //// Ìí¼ÓÑ§Éú1µ½Êı×é
     //students[0].id = 1001;
-    //students[0].name = "å¼ ä¸‰";
-    //students[0].gender = "ç”·";
-    //students[0].className = "è®¡ç®—æœº1ç­";
-    //students[0].specialty = "ç¼–ç¨‹";
+    //students[0].name = "ÕÅÈı";
+    //students[0].gender = "ÄĞ";
+    //students[0].className = "¼ÆËã»ú1°à";
+    //students[0].specialty = "±à³Ì";
     //count++;
-    //// æ·»åŠ å­¦ç”Ÿ2åˆ°æ•°ç»„
+    //// Ìí¼ÓÑ§Éú2µ½Êı×é
     //students[1].id = 1002;
-    //students[1].name = "æå››";
-    //students[1].gender = "å¥³";
-    //students[1].className = "æ•°å­¦2ç­";
-    //students[1].specialty = "ç»˜ç”»";
+    //students[1].name = "ÀîËÄ";
+    //students[1].gender = "Å®";
+    //students[1].className = "ÊıÑ§2°à";
+    //students[1].specialty = "»æ»­";
     //count++;
-    //// æ·»åŠ å­¦ç”Ÿ3åˆ°æ•°ç»„
+    //// Ìí¼ÓÑ§Éú3µ½Êı×é
     //students[2].id = 1003;
-    //students[2].name = "ç‹äº”";
-    //students[2].gender = "ç”·";
-    //students[2].className = "ç‰©ç†3ç­";
-    //students[2].specialty = "ç¯®çƒ";
+    //students[2].name = "ÍõÎå";
+    //students[2].gender = "ÄĞ";
+    //students[2].className = "ÎïÀí3°à";
+    //students[2].specialty = "ÀºÇò";
     //count++;
-    //// æ·»åŠ å­¦ç”Ÿ4åˆ°æ•°ç»„
+    //// Ìí¼ÓÑ§Éú4µ½Êı×é
     //students[3] = newStudent;
     //count++;
 
-    //// ç”¨å¾ªç¯è¾“å‡ºæ‰€æœ‰å­¦ç”Ÿ
-    //cout << "å­¦å·\tå§“å\tæ€§åˆ«\tç­çº§\tç‰¹é•¿" << endl;
+    //// ÓÃÑ­»·Êä³öËùÓĞÑ§Éú
+    //cout << "Ñ§ºÅ\tĞÕÃû\tĞÔ±ğ\t°à¼¶\tÌØ³¤" << endl;
     //cout << "----------------------------------------" << endl;
     //for (int i = 0; i < count; i++) {
     //    cout << students[i].id << "\t"
@@ -78,28 +78,28 @@ int main() {
     //        << students[i].className << "\t"
     //        << students[i].specialty << endl;
     //}
-    //cout << "\næ€»å…± " << count << " åå­¦ç”Ÿ" << endl;
+    //cout << "\n×Ü¹² " << count << " ÃûÑ§Éú" << endl;
 
 
-    //cout << "=== æ–¹æ³•3: æ‰¹é‡åˆå§‹åŒ–æ•°ç»„ ===" << endl;
+    //cout << "=== ·½·¨3: ÅúÁ¿³õÊ¼»¯Êı×é ===" << endl;
 
-    // åˆ›å»ºæ—¶ç›´æ¥åˆå§‹åŒ–æ•°ç»„
+    // ´´½¨Ê±Ö±½Ó³õÊ¼»¯Êı×é
     Student students_1[] = {
-        {1001, "å¼ ä¸‰", "ç”·", "è®¡ç®—æœº1ç­", "ç¼–ç¨‹"},
-        {1002, "æå››", "å¥³", "æ•°å­¦2ç­", "ç»˜ç”»"},
-        {1003, "ç‹äº”", "ç”·", "ç‰©ç†3ç­", "ç¯®çƒ"},
-        {1004, "èµµå…­", "å¥³", "è‹±è¯­4ç­", "å”±æ­Œ"},
-        {1005, "é’±ä¸ƒ", "ç”·", "åŒ–å­¦5ç­", "å®éªŒ"}
+        {1001, "ÕÅÈı", "ÄĞ", "¼ÆËã»ú1°à", "±à³Ì"},
+        {1002, "ÀîËÄ", "Å®", "ÊıÑ§2°à", "»æ»­"},
+        {1003, "ÍõÎå", "ÄĞ", "ÎïÀí3°à", "ÀºÇò"},
+        {1004, "ÕÔÁù", "Å®", "Ó¢Óï4°à", "³ª¸è"},
+        {1005, "Ç®Æß", "ÄĞ", "»¯Ñ§5°à", "ÊµÑé"}
     };
 
     //cout << sizeof(students_1) << endl;
     //cout << sizeof(students_1[0]) << endl;
 
-    // è®¡ç®—æ•°ç»„é•¿åº¦
+    // ¼ÆËãÊı×é³¤¶È
     int count_1 = sizeof(students_1) / sizeof(students_1[0]);
 
-    // è¾“å‡º
-    cout << "å­¦å·\tå§“å\tæ€§åˆ«\tç­çº§\tç‰¹é•¿" << endl;
+    // Êä³ö
+    cout << "Ñ§ºÅ\tĞÕÃû\tĞÔ±ğ\t°à¼¶\tÌØ³¤" << endl;
     cout << "----------------------------------------" << endl;
     for (int i = 0; i < count_1; i++) {
         cout << students_1[i].id << "\t"
@@ -108,7 +108,7 @@ int main() {
             << students_1[i].className << "\t"
             << students_1[i].specialty << endl;
     }
-    cout << "\næ€»å…± " << count_1 << " åå­¦ç”Ÿ" << endl;
+    cout << "\n×Ü¹² " << count_1 << " ÃûÑ§Éú" << endl;
 
 
 

@@ -5,9 +5,9 @@ using namespace std;
 
 
 struct ListNode {
-
     int val;
     ListNode* next;
+
     ListNode(int x) :val(x), next(NULL) {}
     ListNode(int x, ListNode* next) :val(x), next(next) {}
 };
@@ -60,13 +60,13 @@ int main() {
     //n1->next = NULL;
     //ListNode* head = n3;
     
-    // // 正确释放（先保存下一个节点的地址，再释放当前）
-    // ListNode* temp = nullptr;
-    // while(head != NULL) {
-    //     temp = head->next; // 先记住下一个节点的地址
-    //     delete head;       // 释放当前节点
-    //     head = temp;       // 移动到下一个节点
-    // }
+   /*  // 正确释放（先保存下一个节点的地址，再释放当前）
+    ListNode* temp = nullptr;
+    while(head != NULL) {
+        temp = head->next; // 先记住下一个节点的地址
+        delete head;       // 释放当前节点
+        head = temp;       // 移动到下一个节点
+    } */
     // // 释放后把指针置空，避免野指针
     // n1 = nullptr;
     // n2 = nullptr;
