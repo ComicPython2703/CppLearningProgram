@@ -546,7 +546,7 @@ int* bad() {
 
 ## C++ ÄÚÖÃ¿â
 
-### string ¿â
+### string ¿â <!-- >
 
 ```cpp
 #include <iostream>

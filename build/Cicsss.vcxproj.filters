@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\Cicsss\main.cpp">
+    <ClCompile Include="G:\Cicsss\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\Cicsss\CmakeLists.txt" />
+    <CustomBuild Include="G:\Cicsss\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A8D38C52-8E4A-3436-968D-A250B41EAB23}</UniqueIdentifier>
+      <UniqueIdentifier>{DA59FC63-7C5F-3B0B-913C-B313C11ADFBD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

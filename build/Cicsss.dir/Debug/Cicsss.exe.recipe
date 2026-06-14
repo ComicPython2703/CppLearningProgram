@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>F:\Cicsss\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>G:\Cicsss\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>F:\Cicsss\build\Debug\Cicsss.exe</FullPath>
+      <FullPath>G:\Cicsss\build\Debug\Cicsss.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,6 +1,6 @@
-^F:\CICSSS\BUILD\CMAKEFILES\E6F09F87696D60859AD6B4A979CC68CA\GENERATE.STAMP.RULE
+^G:\CICSSS\BUILD\CMAKEFILES\FA95023961A7D9A8B0D32442774415A8\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Cicsss -BF:/Cicsss/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Cicsss/build/Cicsss.sln
+"D:\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/Cicsss -BG:/Cicsss/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/Cicsss/build/Cicsss.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
