@@ -111,24 +111,24 @@ int main() {
     //// 步骤4：前节点的下一个指针 指向新节点
     //p->next = newNode;
 
-    //// 删除第 4 个节点，要操作前驱节点
-    //ListNode* p = head;
-    //for (int i = 0; i < 2; i++) {
-    //    p = p->next;
-    //}
-    //// 此时 p 指向第 3 个节点，即要删除节点的前驱节点
-    //// 把第 4 个节点从链表中摘除
-    //p->next = p->next->next;
+    // 删除第 4 个节点，要操作前驱节点
+    ListNode* p = head;
+    for (int i = 0; i < 2; i++) {
+       p = p->next;
+    }
+    // 此时 p 指向第 3 个节点，即要删除节点的前驱节点
+    // 把第 4 个节点从链表中摘除
+    p->next = p->next->next;
 
-    //// 删除尾节点
-    //ListNode* p = head;
-    //// 找到倒数第二个节点
-    //while (p->next->next != nullptr) {
-    //    p = p->next;
-    //}
-    //// 此时 p 指向倒数第二个节点
-    //// 把尾节点从链表中摘除
-    //p->next = nullptr;
+    // 删除尾节点
+    ListNode* p = head;
+    // 找到倒数第二个节点
+    while (p->next->next != nullptr) {
+       p = p->next;
+    }
+    // 此时 p 指向倒数第二个节点
+    // 把尾节点从链表中摘除
+    p->next = nullptr;
 
     //// 删除头结点
     //head = head->next;

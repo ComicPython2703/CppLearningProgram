@@ -2,8 +2,17 @@
 //  2026年5月31日 10:32
 //  Copyright (c) 2010-2025 ComicPython6045. All Rights Reserved
 //------------------------------------------------
-#include "nude.h" // 哦好省事啊ヾ(≧▽≦*)o
+// #include "nude.h" // 哦好省事啊ヾ(≧▽≦*)o
+#include <iostream>
+#include <string>
+using namespace std;
+struct ListNude
+{
+    int val; //元素,存储链表内的元素
+    ListNude* next; //指针,存储下一个节点地址
 
+    ListNude(int x,ListNude* next): val(x),next(next){} // 节点
+};
 int main()
 {
     cout << "Copyright (c) 2010-2026 ComicPython6045. All Rights Reserved" << endl;
@@ -19,9 +28,27 @@ int main()
     ListNude* head = &n1; // 坐标
     ListNude* p_print = head;
     //cout << p->val << endl;
-    printa(p_print);
+    //printa(p_print);
+    
+    // ----------|删除节点|------------
+    cout << "删除节点" << endl;
 
-    // ----------|插入头节点|------------
+    ListNude* p1 = head;
+
+    for (int i = 0; i < 2; i++) {
+       p1 = p1->next;
+    }
+    p1->next = p1->next->next;
+
+    //printa(p1);
+    while (p_print) {
+        std::cout << p_print->val << std::endl;
+        p_print = p_print->next;
+    }
+    
+    cout << "结束" << endl;
+
+/*     // ----------|插入头节点|------------
 
     cout << "插入头节点" << endl;
 
@@ -29,7 +56,7 @@ int main()
     newNode -> next = head; // 下一个指向头节点
     head = newNode; //更新头节点
 
-    printa(p_print);
+    printa(newNode);
 
     cout << "结束" << endl;
 
@@ -44,19 +71,9 @@ int main()
     }
     p->next = new ListNude(6,NULL);
 
-    printa(p_print);
+    printa(p);
 
-    cout << "结束" << endl;
+    cout << "结束" << endl; */
 
-    // ----------|删除节点|------------
-    cout << "删除节点" << endl;
 
-    ListNude* p1 = head;
-    for (int i = 0; i < 2; i++)
-    {
-        p1 -> next;
-    }
-    p1->next = p1->next->next;
-    
-    cout << "结束" << endl;
 }

@@ -1,0 +1,2 @@
+执行以下命令以修复 无法加载，因为在此系统上禁止运行脚本
+Set-ExecutionPolicy RemoteSigned -Scope Process

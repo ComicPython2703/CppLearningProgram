@@ -13,7 +13,7 @@ struct ListNude
     ListNude(int x,ListNude* next): val(x),next(next){} // ½Úµã
 };
 
-void printa(ListNude *&p_print) // 
+void printa(ListNude &p_print) 
 {
     while (p_print)
     {
