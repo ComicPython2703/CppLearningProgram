@@ -15,7 +15,7 @@ int main()
     cout << "--------------------------------" << endl;
     vector<int> n = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     cout << n.size() << endl; // 9
-    printn(n);
+    printn(n); 
 
     cout << "--------------------------------" << endl;
     cout << "第二个内容: 替换数组v的内容" << endl;
