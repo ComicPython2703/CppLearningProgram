@@ -1,1 +1,0 @@
-https://resources.jetbrains.com/grazie/model/language-tool/6.5.0.12/zh-6.5.0.12.jar

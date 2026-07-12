@@ -1,19 +1,19 @@
-#ifndef na
+#ifndef NUDE_H
+#define NUDE_H
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-// 单链表 结构体定义
 struct ListNude
 {
-    int val; //元素,存储链表内的元素
-    ListNude* next; //指针,存储下一个节点地址
-
-    ListNude(int x,ListNude* next): val(x),next(next){} // 节点
+    int val;
+    ListNude* next;
+    ListNude(int x, ListNude* nxt) : val(x), next(nxt) {}
 };
 
-void printa(ListNude &p_print) 
+// 打印链表（参数改为指针）
+void printa(ListNude* p_print)
 {
     while (p_print)
     {
@@ -21,6 +21,5 @@ void printa(ListNude &p_print)
         p_print = p_print->next;
     }
 }
-
 
 #endif

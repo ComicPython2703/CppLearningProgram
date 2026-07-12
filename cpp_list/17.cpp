@@ -96,20 +96,20 @@ int main() {
     p->next = new ListNode(6);
 
 
-    //// 在第 3 个节点后面插入一个新节点 66
-    //// 先要找到前驱节点，即第 3 个节点
-    //ListNode* p = head;
+    // 在第 3 个节点后面插入一个新节点 66
+    // 先要找到前驱节点，即第 3 个节点
+    ListNode* p = head;
 
-    //// 步骤1：找到插入的位置
-    //for (int i = 0; i < 2; i++) {
-    //    p = p->next;
-    //}
-    //// 此时 p 指向第 3 个节点
-    //// 组装新节点的后驱指针
-    //ListNode* newNode = new ListNode(66);  // 步骤2：新建节点
-    //newNode->next = p->next;  // 步骤3：新节点的下一个指针 指向 后节点(前节点的下一个指针)
-    //// 步骤4：前节点的下一个指针 指向新节点
-    //p->next = newNode;
+    // 步骤1：找到插入的位置
+    for (int i = 0; i < 2; i++) {
+       p = p->next;
+    }
+    // 此时 p 指向第 3 个节点
+    // 组装新节点的后驱指针
+    ListNode* newNode = new ListNode(66);  // 步骤2：新建节点
+    newNode->next = p->next;  // 步骤3：新节点的下一个指针 指向 后节点(前节点的下一个指针)
+    // 步骤4：前节点的下一个指针 指向新节点
+    p->next = newNode;
 
     // 删除第 4 个节点，要操作前驱节点
     ListNode* p = head;
