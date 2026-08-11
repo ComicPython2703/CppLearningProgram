@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(Cicsss)
 
-add_executable(Cicsss main.cpp)
+add_executable(Cicsss 
+    lesson/数据类型/2026年7月19日/main.cpp)

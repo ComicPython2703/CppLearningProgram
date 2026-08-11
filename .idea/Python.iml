@@ -6,12 +6,30 @@
       <sourceFolder url="file://$MODULE_DIR$/TEST" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Homework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cpp_list" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/PPPPPYTHOOOOOOOON/TK库/examples" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/.venv1" />
+      <excludeFolder url="file://$MODULE_DIR$/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/OfflineNotes" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/CMakeFiles/3.31.6-msvc6/CompilerIdC/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/build/CMakeFiles/pkgRedirects" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson/项目/2026年5月3日/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson/项目/demo-2026年2月1日/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson/项目/学生查找系统(2026年1月18日)/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+      <excludeFolder url="file://$MODULE_DIR$/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdC/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/out/build/x64-Debug/CMakeFiles/pkgRedirects" />
+      <excludeFolder url="file://$MODULE_DIR$/trouble" />
+      <excludeFolder url="file://$MODULE_DIR$/vscode设置" />
+      <excludeFolder url="file://$MODULE_DIR$/准备工作" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="seErrorRec" level="application" />
     <orderEntry type="library" name="baidu" level="application" />

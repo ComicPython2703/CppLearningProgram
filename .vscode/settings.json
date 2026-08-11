@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Woodfish Dark",
-    "editor.fontFamily": "'JetBrains Mono NL Regular' , 微软雅黑",
+    "editor.fontFamily": "'JetBrainsMono NFM Regular' , 微软雅黑",
     "files.autoSave": "onWindowChange",
     "git.enableSmartCommit": true,
     "vscode_custom_css.imports": [

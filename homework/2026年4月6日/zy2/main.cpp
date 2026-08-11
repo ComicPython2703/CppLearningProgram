@@ -28,5 +28,5 @@ int main(void){
         a++;
     }
     
-    
+
 }

@@ -6,7 +6,7 @@
 using namespace std;
 
 int n[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // 固定大小数组
-int currentLen = 10;                          // 当前有效元素个数(可变)
+int currentLen = 10;                         // 当前有效元素个数(可变)
 
 void outlen(); // 输出当前数组
 

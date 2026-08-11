@@ -8,4 +8,4 @@ trouble/
 out/
 OfflineNotes/ 
 cpp_list/
-./build
+build/
