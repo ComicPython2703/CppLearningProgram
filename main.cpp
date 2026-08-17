@@ -1,5 +1,5 @@
 //------------------------------------------------
-//  Copyright (c) 2010-2025 ComicPython6045. All Rights Reserved
+//  Copyright (c) 2010-2026 ComicPython6045. All Rights Reserved
 //------------------------------------------------
 
 #include <iostream>

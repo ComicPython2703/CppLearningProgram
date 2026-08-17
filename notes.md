@@ -35,9 +35,9 @@ int main(void)       // 定义主函数,必须是 main,void 可写可不写
 - `#include <iostream>` 包含头文件 iostream,提供标准的输入输出功能
 
 >[WARNING]
-> *禁止导入`bits/stdc++.h`!!!!!*
+> *绝对禁止导入`bits/stdc++.h`!!!!!*
 > *这个头文件罪大恶极,一口气导入了所有的库,这使得编译时间大幅增加!!!*
-<!--让我们一起说: stdc++我草你妈!!!-->
+
 - `using namespace std;` 使用标准命名空间,简化代码书写
 
 `std`命名空间,本示例使用了
@@ -715,6 +715,63 @@ int main() {
 }
 ```
 
+我写不过来了＞︿＜
+看我今年8月16日的cpp代码
+
+---
+
+### fstring 库
+
+#### 创建文件
+
+创建分手动和自动
+
+##### 手动创建文件
+
+手动创建就直接右键就行了
+
+##### 自动创建文件
+
+使用以下代码
+
+```cpp
+ofstream file("example.txt");
+if (!file.is_open()) {
+    cerr << "无法创建数据文件！" << endl;
+    return 0;
+}
+file << 1234 << "|"  << endl;
+// 关闭文件
+file.close();
+```
+
+- `ofstream` 保存文件,若没有该文件则会自行创建该文件
+使用方法 : `ofstream name("name.type")`
+
+#### 读取
+
+使用 `ifstream` 读取文件
+使用方法: `ifstream name("name.type");`
+
+示例代码
+
+```cpp
+ifstream file1("example.txt");
+    
+if (!file1.is_open()) {
+    cerr << "未找到数据文件，需要创建新文件" << endl;
+    return 1;
+}
+else{
+    return 0;
+}
+```
+
+> [WARNING]
+> 该方法读取文件必须先创建该文件,否则无法读取
+
+---
+
 ### vector 库
 
 `vector` 是动态数组,大小可自动调整.
@@ -743,6 +800,8 @@ int main() {
 - `size()` 返回元素个数
 
 > **数组最大值应使用 `数组.size() -1` 来表示, 绝对不要使用 `max_size()` 来表示!!!!!!**
+
+---
 
 ### chrono 时间库
 
@@ -807,22 +866,19 @@ struct tm
     int tm_hour;  // 0到23的小时
     int tm_mday;  // 1到31月
     int tm_mon;   // 从一月到十二月,源代码定义的是从0到11月
-    int tm_year;  // 从1900年开始,32位系统最大2038!!!
+    int tm_year;  // 从1900年开始
     int tm_wday;  // 星期一到星期天,源代码定义的是从 0到6
     int tm_yday;  // 一年的天数,0到365
     int tm_isdst; // 夏令时标志,这什么玩意???? *叹息*
 };
 ```
 
-> **`int tm_year;` 这段,32 位系统最大 2038!!!**
-
 - `tm_year`需要加 1990 才能显示正常年份
 - `tm_mon`需要加 1,因为是从 0 开始
 
 #### 输出当前时间
 
-,**输出前请先获取当前时间戳,见上述**
-. **本段代码只展示其核心内容**
+> **输出前请先获取当前时间戳,见上述** **本段代码只展示其核心内容**
 
 ##### Windows 平台
 
