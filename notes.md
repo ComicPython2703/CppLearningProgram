@@ -12,7 +12,8 @@
 - `"` 字符串
 - `;` 语句结束符,大多数语句末尾需要加分号(函数定义、控制结构的大括号后不加)
 
-> 重要 必须区分字符和字符串,否则会出现 [warning] character constant too long for its type
+> [!IMPORTANT]
+> 必须区分字符和字符串,否则会出现 [warning] character constant too long for its type
 
 ```python
 # 示例 python 代码,和 C++ 对比可以发现 C++ 要复杂许多
