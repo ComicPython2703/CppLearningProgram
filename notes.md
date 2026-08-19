@@ -34,7 +34,7 @@ int main(void)       // 定义主函数,必须是 main,void 可写可不写
 
 - `#include <iostream>` 包含头文件 iostream,提供标准的输入输出功能
 
-> [WARNING]
+> [!WARNING]
 > *绝对禁止导入`bits/stdc++.h`!!!!!*
 > *这个头文件罪大恶极,一口气导入了所有的库,这使得编译时间大幅增加!!!*
 
@@ -46,7 +46,7 @@ int main(void)       // 定义主函数,必须是 main,void 可写可不写
 - `endl` 换行(可选)
 - `int main(void)` 主函数,程序入口
 
-> [WARNING]
+> [!WARNING]
 > *在正规生产环境下绝对禁止`using namespace`,否则会命名污染!!!*
 
 ---
@@ -767,7 +767,7 @@ else{
 }
 ```
 
-> [WARNING]
+> [!WARNING]
 > 该方法读取文件必须先创建该文件,否则无法读取
 
 ---
